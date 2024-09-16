@@ -21,7 +21,7 @@ def record_to_sample(record):
 def model_modality():
   
     dataset = hf_dataset(
-        path="ArtifactAI/model_research_area_benchmark",
+        path="AlgorithmicResearchGroup/model_research_area_benchmark",
         split="train",
         sample_fields=record_to_sample,
         trust=True,

@@ -34,7 +34,7 @@ def record_to_sample(record):
 def pwc():
   
     dataset = hf_dataset(
-        path="ArtifactAI/predict_model_description_given_model_name",
+        path="AlgorithmicResearchGroup/predict_model_description_given_model_name",
         split="train",
         sample_fields=record_to_sample,
         trust=True,

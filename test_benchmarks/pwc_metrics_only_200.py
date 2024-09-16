@@ -20,7 +20,7 @@ def record_to_sample(record):
 def pwc():
   
     dataset = hf_dataset(
-        path="ArtifactAI/pwc_tasks_200",
+        path="AlgorithmicResearchGroup/pwc_tasks_200",
         split="train",
         sample_fields=record_to_sample,
         trust=True,
